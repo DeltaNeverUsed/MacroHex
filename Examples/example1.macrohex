@@ -1,0 +1,5 @@
+﻿#include stuff.macrohex
+
+get_caster_pos_look
+raycast
+Reveal

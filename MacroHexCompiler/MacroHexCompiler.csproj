@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PublishSingleFile>true</PublishSingleFile>
+        <PublishTrimmed>true</PublishTrimmed>
+    </PropertyGroup>
+
+    <Target Name="PostBuild" AfterTargets="Build">
+        <RemoveDir Directories="$(OutDir)std" Condition="Exists('$(OutDir)std')" />
+        
+        <!-- Windows Copy Command -->
+        <Exec Command="xcopy $(SolutionDir)std $(OutDir)std /E /I /Y" Condition="'$(OS)' == 'Windows_NT'" />
+
+        <!-- Linux/macOS Copy Command -->
+        <Exec Command="cp -r $(SolutionDir)std $(OutDir)/std" Condition="'$(OS)' != 'Windows_NT'" />
+    </Target>
+
+    <Target Name="PostPublish" AfterTargets="Publish">
+        <RemoveDir Directories="$(PublishDir)std" Condition="Exists('$(PublishDir)std')" />
+        
+        <!-- Windows Copy Command -->
+        <Exec Command="xcopy $(SolutionDir)std $(PublishDir)std /E /I /Y" Condition="'$(OS)' == 'Windows_NT'" />
+
+        <!-- Linux/macOS Copy Command -->
+        <Exec Command="cp -r $(SolutionDir)std $(PublishDir)/std" Condition="'$(OS)' != 'Windows_NT'" />
+    </Target>
+</Project>

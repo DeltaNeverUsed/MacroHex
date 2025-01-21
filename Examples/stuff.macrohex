@@ -1,0 +1,6 @@
+<"get_caster_pos_look"
+    get_caster
+    entity_pos/eye
+    get_caster
+    get_entity_look
+>

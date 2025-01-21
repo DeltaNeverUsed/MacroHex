@@ -1,0 +1,326 @@
+﻿// for 1.20
+
+<"Gravitational Purification" !wawawddew>
+<"interop/gravity/get" Gravitational Purification>
+<"Alter Gravity" !wdwdwaaqw>
+<"interop/gravity/set" Alter Gravity>
+<"Gulliver's Purification" !aawawwawwa>
+<"interop/pehkui/get" Gulliver's Purification>
+<"Alter Scale" !ddwdwwdwwd>
+<"interop/pehkui/set" Alter Scale>
+<"Mind's Reflection" !qaq>
+<"get_caster" Mind's Reflection>
+<"Compass' Purification" !aa>
+<"entity_pos/eye" Compass' Purification>
+<"Compass' Purification II" !dd>
+<"entity_pos/foot" Compass' Purification II>
+<"Alidade's Purification" !wa>
+<"get_entity_look" Alidade's Purification>
+<"Stadiometer's Purification" !awq>
+<"get_entity_height" Stadiometer's Purification>
+<"Pace Purification" !wq>
+<"get_entity_velocity" Pace Purification>
+<"Archer's Distillation" !wqaawdd>
+<"raycast" Archer's Distillation>
+<"Architect's Distillation" !weddwaa>
+<"raycast/axis" Architect's Distillation>
+<"Scout's Distillation" !weaqa>
+<"raycast/entity" Scout's Distillation>
+<"Waystone Reflection" !eaqwqae>
+<"circle/impetus_pos" Waystone Reflection>
+<"Lodestone Reflection" !eaqwqaewede>
+<"circle/impetus_dir" Lodestone Reflection>
+<"Lesser Fold Reflection" !eaqwqaewdd>
+<"circle/bounds/min" Lesser Fold Reflection>
+<"Greater Fold Reflection" !aqwqawaaqa>
+<"circle/bounds/max" Greater Fold Reflection>
+<"Jester's Gambit" !aawdd>
+<"swap" Jester's Gambit>
+<"Rotation Gambit" !aaeaa>
+<"rotate" Rotation Gambit>
+<"Rotation Gambit II" !ddqdd>
+<"rotate_reverse" Rotation Gambit II>
+<"Gemini Decomposition" !aadaa>
+<"duplicate" Gemini Decomposition>
+<"Prospector's Gambit" !aaedd>
+<"over" Prospector's Gambit>
+<"Undertaker's Gambit" !ddqaa>
+<"tuck" Undertaker's Gambit>
+<"Dioscuri Gambit" !aadadaaw>
+<"two_dup" Dioscuri Gambit>
+<"Flock's Reflection" !qwaeawqaeaqa>
+<"stack_len" Flock's Reflection>
+<"Gemini Gambit" !aadaadaa>
+<"duplicate_n" Gemini Gambit>
+<"Fisherman's Gambit" !ddad>
+<"fisherman" Fisherman's Gambit>
+<"Fisherman's Gambit II" !aada>
+<"fisherman/copy" Fisherman's Gambit II>
+<"Swindler's Gambit" !qaawdde>
+<"swizzle" Swindler's Gambit>
+<"Additive Distillation" !waaw>
+<"add" Additive Distillation>
+<"Subtractive Distillation" !wddw>
+<"sub" Subtractive Distillation>
+<"Multiplicative Distillation" !waqaw>
+<"mul_dot" Multiplicative Distillation>
+<"Division Distillation" !wdedw>
+<"div_cross" Division Distillation>
+<"Length Purification" !wqaqw>
+<"abs_len" Length Purification>
+<"Power Distillation" !wedew>
+<"pow_proj" Power Distillation>
+<"Floor Purification" !ewq>
+<"floor" Floor Purification>
+<"Ceiling Purification" !qwe>
+<"ceil" Ceiling Purification>
+<"Vector Exaltation" !eqqqqq>
+<"construct_vec" Vector Exaltation>
+<"Vector Disintegration" !qeeeee>
+<"deconstruct_vec" Vector Disintegration>
+<"Axial Purification" !qqqqqaww>
+<"coerce_axial" Axial Purification>
+<"Conjunction Distillation" !wdw>
+<"and" Conjunction Distillation>
+<"Disjunction Distillation" !waw>
+<"or" Disjunction Distillation>
+<"Exclusion Distillation" !dwa>
+<"xor" Exclusion Distillation>
+<"Maximus Distillation" !e>
+<"greater" Maximus Distillation>
+<"Minimus Distillation" !q>
+<"less" Minimus Distillation>
+<"Maximus Distillation II" !ee>
+<"greater_eq" Maximus Distillation II>
+<"Minimus Distillation II" !qq>
+<"less_eq" Minimus Distillation II>
+<"Equality Distillation" !ad>
+<"equals" Equality Distillation>
+<"Inequality Distillation" !da>
+<"not_equals" Inequality Distillation>
+<"Negation Purification" !dw>
+<"not" Negation Purification>
+<"Augur's Purification" !aw>
+<"bool_coerce" Augur's Purification>
+<"Augur's Exaltation" !awdd>
+<"if" Augur's Exaltation>
+<"Entropy Reflection" !eqqq>
+<"random" Entropy Reflection>
+<"Sine Purification" !qqqqqaa>
+<"sin" Sine Purification>
+<"Cosine Purification" !qqqqqad>
+<"cos" Cosine Purification>
+<"Tangent Purification" !wqqqqqadq>
+<"tan" Tangent Purification>
+<"Inverse Sine Purification" !ddeeeee>
+<"arcsin" Inverse Sine Purification>
+<"Inverse Cosine Purification" !adeeeee>
+<"arccos" Inverse Cosine Purification>
+<"Inverse Tangent Purification" !eadeeeeew>
+<"arctan" Inverse Tangent Purification>
+<"Logarithmic Distillation" !eqaqe>
+<"logarithm" Logarithmic Distillation>
+<"Modulus Distillation" !addwaad>
+<"modulo" Modulus Distillation>
+<"Intersection Distillation" !wdweaqa>
+<"and_bit" Intersection Distillation>
+<"Unifying Distillation" !waweaqa>
+<"or_bit" Unifying Distillation>
+<"Exclusionary Distillation" !dwaeaqa>
+<"xor_bit" Exclusionary Distillation>
+<"Inversion Purification" !dweaqa>
+<"not_bit" Inversion Purification>
+<"Uniqueness Purification" !aweaqa>
+<"to_set" Uniqueness Purification>
+<"Reveal" !de>
+<"print" Reveal>
+<"Explosion" !aawaawaa>
+<"explode" Explosion>
+<"Fireball" !ddwddwdd>
+<"explode/fire" Fireball>
+<"Impulse" !awqqqwaqw>
+<"add_motion" Impulse>
+<"Blink" !awqqqwaq>
+<"blink" Blink>
+<"Break Block" !qaqqqqq>
+<"break_block" Break Block>
+<"Place Block" !eeeeede>
+<"place_block" Place Block>
+<"Internalize Pigment" !awddwqawqwawq>
+<"colorize" Internalize Pigment>
+<"Create Water" !aqawqadaq>
+<"create_water" Create Water>
+<"Destroy Liquid" !dedwedade>
+<"destroy_water" Destroy Liquid>
+<"Ignite Block" !aaqawawa>
+<"ignite" Ignite Block>
+<"Extinguish Area" !ddedwdwd>
+<"extinguish" Extinguish Area>
+<"Conjure Block" !qqa>
+<"conjure_block" Conjure Block>
+<"Conjure Light" !qqd>
+<"conjure_light" Conjure Light>
+<"Overgrow" !wqaqwawqaqw>
+<"bonemeal" Overgrow>
+<"Recharge Item" !qqqqqwaeaeaeaeaea>
+<"recharge" Recharge Item>
+<"Erase Item" !qdqawwaww>
+<"erase" Erase Item>
+<"Edify Sapling" !wqaqwd>
+<"edify" Edify Sapling>
+<"Make Note" !adaa>
+<"beep" Make Note>
+<"Craft Cypher" !waqqqqq>
+<"craft/cypher" Craft Cypher>
+<"Craft Trinket" !wwaqqqqqeaqeaeqqqeaeq>
+<"craft/trinket" Craft Trinket>
+<"Craft Artifact" !wwaqqqqqeawqwqwqwqwqwwqqeadaeqqeqqeadaeqq>
+<"craft/artifact" Craft Artifact>
+<"White Sun's Nadir" !qqqqqaqwawaw>
+<"potion/weakness" White Sun's Nadir>
+<"Blue Sun's Nadir" !qqqqqawwawawd>
+<"potion/levitation" Blue Sun's Nadir>
+<"Black Sun's Nadir" !qqqqqaewawawe>
+<"potion/wither" Black Sun's Nadir>
+<"Red Sun's Nadir" !qqqqqadwawaww>
+<"potion/poison" Red Sun's Nadir>
+<"Green Sun's Nadir" !qqqqqadwawaw>
+<"potion/slowness" Green Sun's Nadir>
+<"Summon Sentinel" !waeawae>
+<"sentinel/create" Summon Sentinel>
+<"Banish Sentinel" !qdwdqdw>
+<"sentinel/destroy" Banish Sentinel>
+<"Locate Sentinel" !waeawaede>
+<"sentinel/get_pos" Locate Sentinel>
+<"Wayfind Sentinel" !waeawaedwa>
+<"sentinel/wayfind" Wayfind Sentinel>
+<"Akasha's Distillation" !qqqwqqqqqaq>
+<"akashic/read" Akasha's Distillation>
+<"Akasha's Gambit" !eeeweeeeede>
+<"akashic/write" Akasha's Gambit>
+<"Charon's Gambit" !aqdee>
+<"halt" Charon's Gambit>
+<"Scribe's Reflection" !aqqqqq>
+<"read" Scribe's Reflection>
+<"Chronicler's Purification" !wawqwqwqwqwqw>
+<"read/entity" Chronicler's Purification>
+<"Scribe's Gambit" !deeeee>
+<"write" Scribe's Gambit>
+<"Chronicler's Gambit" !wdwewewewewew>
+<"write/entity" Chronicler's Gambit>
+<"Auditor's Reflection" !aqqqqqe>
+<"readable" Auditor's Reflection>
+<"Auditor's Purification" !wawqwqwqwqwqwew>
+<"readable/entity" Auditor's Purification>
+<"Assessor's Reflection" !deeeeeq>
+<"writable" Assessor's Reflection>
+<"Assessor's Purification" !wdwewewewewewqw>
+<"writable/entity" Assessor's Purification>
+<"Muninn's Reflection" !qeewdweddw>
+<"read/local" Muninn's Reflection>
+<"Huginn's Gambit" !eqqwawqaaw>
+<"write/local" Huginn's Gambit>
+<"Nullary Reflection" !d>
+<"const/null" Nullary Reflection>
+<"True Reflection" !aqae>
+<"const/true" True Reflection>
+<"False Reflection" !dedq>
+<"const/false" False Reflection>
+<"Vector Reflection +X" !qqqqqea>
+<"const/vec/px" Vector Reflection +X>
+<"Vector Reflection +Y" !qqqqqew>
+<"const/vec/py" Vector Reflection +Y>
+<"Vector Reflection +Z" !qqqqqed>
+<"const/vec/pz" Vector Reflection +Z>
+<"Vector Reflection -X" !eeeeeqa>
+<"const/vec/nx" Vector Reflection -X>
+<"Vector Reflection -Y" !eeeeeqw>
+<"const/vec/ny" Vector Reflection -Y>
+<"Vector Reflection -Z" !eeeeeqd>
+<"const/vec/nz" Vector Reflection -Z>
+<"Vector Reflection Zero" !qqqqq>
+<"const/vec/0" Vector Reflection Zero>
+<"Arc's Reflection" !qdwdq>
+<"const/double/pi" Arc's Reflection>
+<"Circle's Reflection" !eawae>
+<"const/double/tau" Circle's Reflection>
+<"Euler's Reflection" !aaq>
+<"const/double/e" Euler's Reflection>
+<"Entity Purification" !qqqqqdaqa>
+<"get_entity" Entity Purification>
+<"Entity Purification: Animal" !qqqqqdaqaawa>
+<"get_entity/animal" Entity Purification: Animal>
+<"Entity Purification: Monster" !qqqqqdaqaawq>
+<"get_entity/monster" Entity Purification: Monster>
+<"Entity Purification: Item" !qqqqqdaqaaww>
+<"get_entity/item" Entity Purification: Item>
+<"Entity Purification: Player" !qqqqqdaqaawe>
+<"get_entity/player" Entity Purification: Player>
+<"Entity Purification: Living" !qqqqqdaqaawd>
+<"get_entity/living" Entity Purification: Living>
+<"Zone Distillation: Any" !qqqqqwded>
+<"zone_entity" Zone Distillation: Any>
+<"Zone Distillation: Animal" !qqqqqwdeddwa>
+<"zone_entity/animal" Zone Distillation: Animal>
+<"Zone Distillation: Non-Animal" !eeeeewaqaawa>
+<"zone_entity/not_animal" Zone Distillation: Non-Animal>
+<"Zone Distillation: Monster" !qqqqqwdeddwq>
+<"zone_entity/monster" Zone Distillation: Monster>
+<"Zone Distillation: Non-Monster" !eeeeewaqaawq>
+<"zone_entity/not_monster" Zone Distillation: Non-Monster>
+<"Zone Distillation: Item" !qqqqqwdeddww>
+<"zone_entity/item" Zone Distillation: Item>
+<"Zone Distillation: Non-Item" !eeeeewaqaaww>
+<"zone_entity/not_item" Zone Distillation: Non-Item>
+<"Zone Distillation: Player" !qqqqqwdeddwe>
+<"zone_entity/player" Zone Distillation: Player>
+<"Zone Distillation: Non-Player" !eeeeewaqaawe>
+<"zone_entity/not_player" Zone Distillation: Non-Player>
+<"Zone Distillation: Living" !qqqqqwdeddwd>
+<"zone_entity/living" Zone Distillation: Living>
+<"Zone Distillation: Non-Living" !eeeeewaqaawd>
+<"zone_entity/not_living" Zone Distillation: Non-Living>
+<"Integration Distillation" !edqde>
+<"append" Integration Distillation>
+<"Combination Distillation" !qaeaq>
+<"concat" Combination Distillation>
+<"Selection Distillation" !deeed>
+<"index" Selection Distillation>
+<"Abacus Purification" !aqaeaq>
+<"list_size" Abacus Purification>
+<"Single's Purification" !adeeed>
+<"singleton" Single's Purification>
+<"Vacant Reflection" !qqaeaae>
+<"empty_list" Vacant Reflection>
+<"Retrograde Purification" !qqqaede>
+<"reverse_list" Retrograde Purification>
+<"Flock's Gambit" !ewdqdwe>
+<"last_n_list" Flock's Gambit>
+<"Flock's Disintegration" !qwaeawq>
+<"splat" Flock's Disintegration>
+<"Locator's Distillation" !dedqde>
+<"index_of" Locator's Distillation>
+<"Excisor's Distillation" !edqdewaqa>
+<"list_remove" Excisor's Distillation>
+<"Selection Exaltation" !qaeaqwded>
+<"slice" Selection Exaltation>
+<"Surgeon's Exaltation" !wqaeaqw>
+<"modify_in_place" Surgeon's Exaltation>
+<"Speaker's Distillation" !ddewedd>
+<"construct" Speaker's Distillation>
+<"Speaker's Decomposition" !aaqwqaa>
+<"deconstruct" Speaker's Decomposition>
+<"Consideration" !qqqaw>
+<"escape" Consideration>
+<"Introspection" !qqq>
+<"open_paren" Introspection>
+<"{" open_paren>
+<"Retrospection" !eee>
+<"close_paren" Retrospection>
+<"}" close_paren>
+<"Hermes' Gambit" !deaqq>
+<"eval" Hermes' Gambit>
+<"Thoth's Gambit" !dadad>
+<"for_each" Thoth's Gambit>
+
+
