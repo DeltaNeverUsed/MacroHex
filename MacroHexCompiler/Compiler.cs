@@ -87,9 +87,14 @@ public static class Compiler {
         
         _workingProgram = File.ReadAllText(_sourcePath);
 
-        Parser parser = new(_sourcePath);
-        List<Token> result = parser.Parse();
+        try {
+            Parser parser = new(_sourcePath);
+            List<Token> result = parser.Parse();
         
-        File.WriteAllText(_outputPath, string.Join('\n', result.Select(t => t.Content.Trim())));
+            File.WriteAllText(_outputPath, string.Join('\n', result.Select(t => t.Content.Trim())));
+        }
+        catch (Exception e) {
+            Console.WriteLine(e);
+        }
     }
 }
