@@ -230,7 +230,29 @@ public class Parser(string filePath) {
     }
 
     private void GeneratorPass() {
-        
+        for (int i = 0; i < _tokens.Count; i++) {
+            Token token = _tokens[i];
+            if (token.Type != TokenType.CompilerAction)
+                continue;
+
+            string content = token.Content;
+            if (content.Length < 1)
+                continue;
+            
+            if (content[0] != 'g')
+                continue;
+
+            string[] args = content[1..].Trim().Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            if (args.Length < 2)
+                Throw(token, "Generator expected gen type and at least one argument.");
+
+            if (!Enum.TryParse(args[0], true, out GeneratorType genType))
+                Throw(token, $"Generator expected valid gen type but got {args[0]}");
+            
+
+            _tokens.RemoveAt(i);
+            _tokens.InsertRange(i, Generator.Generate(genType, args[1..]));
+        }
     }
 
     private void VerbosePrintTokenStats() {
@@ -280,7 +302,7 @@ public class Parser(string filePath) {
         VerbosePrintTokenStats();
 
         int iterCount = 0;
-        while (_tokens.Any(t => t.Type == TokenType.MacroCall) || iterCount >= MaxIterationCount) {
+        while (_tokens.Any(t => t.Type is TokenType.MacroCall or TokenType.CompilerAction) || iterCount >= MaxIterationCount) {
             iterCount++;
             Compiler.VerbosePrint($"MacroCall/Generator Pass for {FileName} pass {iterCount}");
 
