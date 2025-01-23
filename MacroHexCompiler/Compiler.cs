@@ -94,7 +94,7 @@ public static class Compiler {
             File.WriteAllText(_outputPath, string.Join('\n', result.Select(t => t.Content.Trim())));
         }
         catch (Exception e) {
-            Console.WriteLine(e);
+            PrintError(e);
         }
     }
 }

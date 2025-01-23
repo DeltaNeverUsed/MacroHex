@@ -1,5 +1,8 @@
-﻿#include stuff.macrohex
+﻿//#include stuff.macrohex
 
-get_caster_pos_look
-raycast
-Reveal
+#g num -1383.234
+
+//get_caster_pos_look
+//raycast
+//Reveal
+
