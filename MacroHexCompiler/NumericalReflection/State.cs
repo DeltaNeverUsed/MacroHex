@@ -1,4 +1,6 @@
-﻿namespace MacroHexCompiler.NumericalReflection;
+﻿using System.Collections.Immutable;
+
+namespace MacroHexCompiler.NumericalReflection;
 
 public readonly struct State : IEquatable<State> {
     public readonly int X;
@@ -6,18 +8,18 @@ public readonly struct State : IEquatable<State> {
     public readonly int Direction;
     public readonly float Value;
     public readonly int Depth;
-    public readonly HashSet<Edge> UsedEdges;
-    public readonly string Path;
+    public readonly ImmutableHashSet<Edge> UsedEdges;
+    public readonly ImmutableArray<byte> Moves;
 
     public State(int x, int y, int dir, float val, int depth,
-        HashSet<Edge> edges, string path) {
+        ImmutableHashSet<Edge> edges, ImmutableArray<byte> moves) {
         X = x;
         Y = y;
         Direction = dir;
         Value = val;
         Depth = depth;
         UsedEdges = edges;
-        Path = path;
+        Moves = moves;
     }
 
     public bool Equals(State other) {

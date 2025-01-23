@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Globalization;
 
 namespace MacroHexCompiler;
 
@@ -14,7 +15,7 @@ public static class Generator
         switch (type)
         {
             case GeneratorType.Num:
-                if (float.TryParse(args[0], out float number))
+                if (float.TryParse(args[0], CultureInfo.InvariantCulture, out float number))
                     return Number(number);
                 throw new Exception("Invalid number");
             default:
@@ -26,7 +27,7 @@ public static class Generator
 
     private static List<Token> Number(float number) {
         Stopwatch timer = Stopwatch.StartNew();
-        (string result, bool exact, float diff) = NumericalReflection.NumberSolver.Solve(number, 12);
+        (string result, bool exact, float diff) = NumericalReflection.NumberSolver.Solve(number, 5);
         timer.Stop();
         Compiler.VerbosePrint($"Number generation took {timer.Elapsed}");
 
